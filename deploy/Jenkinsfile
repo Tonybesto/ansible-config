@@ -85,12 +85,5 @@ pipeline {
       }
     }
 
-    stage('CleanUp') {
-      steps {
-        script {
-          sh 'echo "Clean Up"'
-        }
-      }
-    }
     }
 }
