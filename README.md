@@ -73,7 +73,7 @@ sudo systemctl daemon-reload
 
 #### Install phpunit, phploc
 =====================================
-- sudo dnf --enablerepo=remi install php-phpunit-phploc
+- sudo dnf --enablerepo=remi install php-phpunit-phploc -y
 - wget -O phpunit https://phar.phpunit.de/phpunit-7.phar
 - chmod +x phpunit
 - sudo yum  install php-xdebug
